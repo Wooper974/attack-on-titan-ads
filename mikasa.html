@@ -1,0 +1,79 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Attack on Titan ADs - Mikasa</title>
+    <link rel="stylesheet" href="style.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Rubik:wght@400;500;600;700&display=swap" rel="stylesheet">
+</head>
+<body>
+    <div id="header">
+        <div id="title">
+            <h1>Attack on Titan ADs Comparison</h1>
+            <h2>進撃の巨人の作監の比較絵</h2>
+        </div>
+    
+        <nav id="menu">
+            <a class="menu active" href="eren.html">Eren</a>
+            <a class="menu" href="mikasa.html">Mikasa</a>
+            <a class="menu" href="armin.html">Armin</a>
+            <a class="menu" href="reiner.html">Reiner</a>
+        </nav>
+    </div>
+
+    <div id="main">
+        <div class="ad">
+            <div class="ad-collection">
+                <img src="https://raw.githubusercontent.com/Wooper974/attack-on-titan-ads/main/img/mikasa/kishi/1_preview.jpg">
+                <img src="https://raw.githubusercontent.com/Wooper974/attack-on-titan-ads/main/img/mikasa/kishi/2_preview.jpg">
+                <img src="https://raw.githubusercontent.com/Wooper974/attack-on-titan-ads/main/img/mikasa/kishi/3_preview.jpg">
+                <img src="https://raw.githubusercontent.com/Wooper974/attack-on-titan-ads/main/img/mikasa/kishi/4_preview.jpg">
+            </div>
+            <h3 class="ad-name">
+                岸友洋 - Tomohiro Kishi
+            </h3>
+        </div>
+
+        <div class="ad">
+            <div class="ad-collection">
+                <img src="https://raw.githubusercontent.com/Wooper974/attack-on-titan-ads/main/img/mikasa/minagawa/1_preview.jpg">
+                <img src="https://raw.githubusercontent.com/Wooper974/attack-on-titan-ads/main/img/mikasa/minagawa/2_preview.jpg">
+                <img src="https://raw.githubusercontent.com/Wooper974/attack-on-titan-ads/main/img/mikasa/minagawa/3_preview.jpg">
+                <img src="https://raw.githubusercontent.com/Wooper974/attack-on-titan-ads/main/img/mikasa/minagawa/4_preview.jpg">
+            </div>
+            <h3 class="ad-name">
+                皆川愛香利 - Akari Minagawa
+            </h3>
+        </div>
+
+        <div class="ad">
+            <div class="ad-collection">
+                <img src="https://raw.githubusercontent.com/Wooper974/attack-on-titan-ads/main/img/mikasa/akita/1_preview.jpg">
+                <img src="https://raw.githubusercontent.com/Wooper974/attack-on-titan-ads/main/img/mikasa/akita/2_preview.jpg">
+                <img src="https://raw.githubusercontent.com/Wooper974/attack-on-titan-ads/main/img/mikasa/akita/3_preview.jpg">
+                <img src="https://raw.githubusercontent.com/Wooper974/attack-on-titan-ads/main/img/mikasa/akita/4_preview.jpg">
+            </div>
+            <h3 class="ad-name">
+                秋田学 - Manabu Akita
+            </h3>
+        </div>
+
+
+    </div>
+
+    <footer>
+        Created with ❤️ by <a href="https://twitter.com/w_sakuga" target="_blank">@w_sakuga</a> & <a href="https://twitter.com/ftLoic" target="_blank">@ftLoic</a>
+    </footer>
+</body>
+</html>
+<script>
+document.querySelectorAll('.ad-collection img').forEach(function (img) {
+    img.onclick = function () {
+        window.open(img.src.replace('_preview.jpg', '.jpg'));
+    }
+});
+</script>
