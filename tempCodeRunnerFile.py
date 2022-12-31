@@ -1,0 +1,1 @@
+mg, [int(cv2.IMWRITE_JPEG_QUALITY), 90])
