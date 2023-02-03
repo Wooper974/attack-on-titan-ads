@@ -38,7 +38,8 @@ body {
     font-size: 28px;
     text-decoration: none;
     color: white;
-    min-width: 20%;
+    /* PROPORTION 1 DU MENU (grand écran) */
+    width: 20%;
 }
 #menu .menu:not(.active):hover {
     background-color: rgba(20, 20, 25, 0.5);
@@ -159,6 +160,7 @@ footer a {
         flex-wrap: wrap;
     }
     #menu .menu {
+        /* PROPORTION 2 DU MENU (tél) */
         width: 50%;
     }
     .ad {
