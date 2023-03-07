@@ -31,12 +31,15 @@ body {
     justify-content: center;
     align-items: baseline;
     text-align: center;
+    flex-wrap: wrap;
 }
 #menu .menu {
-    padding: 15px 50px;
+    padding: 15px 0;
     font-size: 28px;
     text-decoration: none;
     color: white;
+    /* PROPORTION 1 DU MENU (grand écran) */
+    width: 20%;
 }
 #menu .menu:not(.active):hover {
     background-color: rgba(20, 20, 25, 0.5);
@@ -129,7 +132,6 @@ footer a {
         font-size: 36px;
     }
     #menu .menu {
-        padding: 12px 35px;
         font-size: 24px;
     }
     .ad-name {
@@ -142,8 +144,7 @@ footer a {
         width: calc(50% - 50px);
     }
     #menu .menu {
-        padding: 12px 24px;
-        font-size: 19px;
+        font-size: 20px;
     }
 }
 
@@ -159,9 +160,8 @@ footer a {
         flex-wrap: wrap;
     }
     #menu .menu {
-        box-sizing: border-box;
+        /* PROPORTION 2 DU MENU (tél) */
         width: 50%;
-        font-size: 16px;
     }
     .ad {
         width: calc(100% - 50px);
